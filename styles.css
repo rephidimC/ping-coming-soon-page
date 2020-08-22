@@ -53,14 +53,13 @@ button:hover {
   background-color: hsl(223, 100%, 88%)
 }
 
-.error {
+.result {
   color: red;
   font-style: italic;
   position: absolute;
   font-size: 0.8rem;
   top: 20rem;
-    left: 26.4rem;
-    display: none;
+  left: 26.4rem;
 }
 
 .div-illustration {
