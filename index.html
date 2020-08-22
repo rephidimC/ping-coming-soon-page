@@ -1,34 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <title>Frontend Mentor | Ping coming soon page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <div class="container">
+    <img src="images/logo.svg" alt="">
+    <p class="we">We are launching<span>soon!</span></p>
+    <p class="subscribe">Subscribe and get notified</p>
+    <div class="input-section">
+      <input type="text" name="" value="" placeholder="Your email address...">
+      <button type="button" name="button">Notify Me</button>
+    </div>
+    <p class="error blank">Whoops! It looks like you forgot to add your email</p>
+    <p class="error incorrect">Please provide a valid email address</p>
+    <div class="div-illustration">
+      <img class="illustration" src="images/illustration-dashboard.png" alt="">
+    </div>
+    <div class="icons">
+      <div class="sm facebook">
+        <i class="fa fa-facebook-f"></i>
+      </div>
+      <div class="sm twitter">
+        <i class="fa fa-twitter"></i>
+      </div>
+      <div class="sm instagram">
+        <i class="fa fa-instagram"></i>
+      </div>
+    </div>
+    <p class="copy">  &copy; Copyright Ping. All rights reserved.</p>
+  </div>
 
-  We are launching soon!
 
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
 
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="github.com/rephidimC">Victor Adeleke AFOLAYAN</a>.
     </p>
   </footer>
 </body>
+
 </html>

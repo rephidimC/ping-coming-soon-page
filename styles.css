@@ -1,0 +1,120 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 4rem;
+}
+
+.we {
+  color: hsl(0, 0%, 59%);
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+span {
+  color: black;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.subscribe {
+  margin-bottom: 3rem;
+}
+
+input {
+  font-family: 'Libre Franklin', sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(0, 0%, 59%);
+  color: hsl(0, 0%, 59%);
+  width: 19rem;
+}
+
+button {
+  font-family: 'Libre Franklin', sans-serif;
+  padding: 1rem;
+  width: 11rem;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  margin-left: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(223, 100%, 88%)
+}
+
+.error {
+  color: red;
+  font-style: italic;
+  position: absolute;
+  font-size: 0.8rem;
+  top: 20rem;
+    left: 26.4rem;
+    display: none;
+}
+
+.div-illustration {
+  margin-top: 5rem;
+}
+
+.illustration {
+  max-width: 45%;
+}
+
+.icons {
+  margin: 3rem 0 2rem;
+}
+
+.sm {
+  display: inline-block;
+  margin: 0 0.5rem;
+  border-style: solid;
+  border-color: hsl(0, 0%, 59%);
+  border-width: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sm:hover {
+  background-color: hsl(223, 87%, 63%);
+}
+
+.fa {
+  padding: 0.4rem;
+  color: hsl(223, 87%, 63%);
+}
+
+.fa:hover {
+  color: white;
+}
+
+.fa-facebook-f {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+.fa-twitter {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+.fa-instagram {
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+}
+
+.copy {
+  color: hsl(0, 0%, 59%);
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
