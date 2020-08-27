@@ -3,24 +3,67 @@ function validateEmail(email) {
   return re.test(email);
 }
 
+var button = document.querySelector("button");
+
+
 function validate() {
-  var $result = $(".result");
-  var email = $("input").val();
-  $result.text("");
+  var correct = document.querySelector(".correct");
+  var incorrect = document.querySelector(".incorrect");
+  var empty = document.querySelector(".empty");
+  var email = document.querySelector("input").value;
+  var input = document.querySelector("input");
+
 
   if (validateEmail(email)) {
-    $result.text(email + " is valid :)");
-    $result.css("color", "green");
+    correct.style.display = "block";
+    empty.style.display = "none";
+    incorrect.style.display = "none";
+    input.style.borderColor = "hsl(0, 0%, 59%)";
+
+
   } else if (email == "") {
-    $result.text("Whoops! It looks like you forgot to add your email!");
+    empty.style.display = "block";
+    correct.style.display = "none";
+    incorrect.style.display = "none";
+    input.style.borderColor = "red";
+
   } else {
-    $result.text("Please provide a valid email address!");
+    incorrect.style.display = "block";
+    correct.style.display = "none";
+    empty.style.display = "none";
+    input.style.borderColor = "red";
   }
   return false;
 }
 
-$("button").on("click", validate);
+button.addEventListener("click", validate);
 
 
 
-  // <p class="error incorrect">Please provide a valid email address</p>
+//   var $correct = $(".correct");
+//   var $incorrect = $(".incorrect");
+//   var $empty = $(".empty");
+//   var email = $("input").val();
+//
+//   if (validateEmail(email)) {
+//     $correct.show();
+//     $empty.hide();
+//     $incorrect.hide();
+//   } else if (email == "") {
+//     $empty.show();
+//     $correct.hide();
+//     $incorrect.hide();
+//   } else {
+//     $incorrect.show();
+//     $correct.hide();
+//     $empty.hide();
+//   }
+//   return false;
+// }
+//
+// $("button").on("click", validate);
+
+
+
+
+// <p class="error incorrect">Please provide a valid email address</p>
