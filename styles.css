@@ -33,6 +33,7 @@ input {
   border-color: hsl(0, 0%, 59%);
   color: hsl(0, 0%, 59%);
   width: 19rem;
+  outline: none;
 }
 
 button {
@@ -47,6 +48,7 @@ button {
   margin-left: 1rem;
   font-weight: 600;
   cursor: pointer;
+  outline: none;s
 }
 
 button:hover {
